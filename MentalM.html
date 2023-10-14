@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Math Game</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Math Game</h1>
+        <button onclick="resetGame()">Start Timer</button>
+        <div id="problem"></div>
+        <input type="text" id="answer" placeholder="Your answer">
+        <input type="hidden" id="expectedAnswer">
+        <button id="checkButton" onclick="checkAnswer()">Check</button>
+        <p id="result"></p>
+        <button onclick="generateProblem()">Next Question</button>
+        <div id="timer">Time left: 2m 0s</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
